@@ -4,7 +4,7 @@
     "platform": "azure",
     "level": 0,
     "cost": -1,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-basic",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
@@ -12,7 +12,7 @@
     "platform": "azure",
     "level": 0,
     "cost":  0,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-basic",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
@@ -20,7 +20,7 @@
     "platform": "azure",
     "level": 0,
     "cost":  1,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-basic",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
@@ -28,7 +28,7 @@
     "platform": "azure",
     "level": 1,
     "cost": -1,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-commercial",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
@@ -36,7 +36,7 @@
     "platform": "azure",
     "level": 1,
     "cost":  0,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-commercial",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
@@ -44,7 +44,7 @@
     "platform": "azure",
     "level": 1,
     "cost":  1,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-commercial",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
@@ -52,7 +52,7 @@
     "platform": "azure",
     "level": 2,
     "cost": -1,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-critical",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
@@ -60,7 +60,7 @@
     "platform": "azure",
     "level": 2,
     "cost":  0,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-critical",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
@@ -68,7 +68,7 @@
     "platform": "azure",
     "level": 2,
     "cost":  1,
-    "template": "https://github.com/jairoprogramador/vex-tpl-java-azure-basic",
+    "template": "https://github.com/jairoprogramador/vex-tpl-springboot-azure-critical",
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   }
 ]
