@@ -1,6 +1,6 @@
 [
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 0,
     "cost": -1,
@@ -8,7 +8,7 @@
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 0,
     "cost":  0,
@@ -16,7 +16,7 @@
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 0,
     "cost":  1,
@@ -24,7 +24,7 @@
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 1,
     "cost": -1,
@@ -32,7 +32,7 @@
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 1,
     "cost":  0,
@@ -40,7 +40,7 @@
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 1,
     "cost":  1,
@@ -48,7 +48,7 @@
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 2,
     "cost": -1,
@@ -56,7 +56,7 @@
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 2,
     "cost":  0,
@@ -64,7 +64,7 @@
     "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   },
   { 
-    "stack": "java",
+    "stack": "springboot",
     "platform": "azure",
     "level": 2,
     "cost":  1,
