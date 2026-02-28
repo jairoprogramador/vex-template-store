@@ -26,18 +26,23 @@ templates.json   ← Mapa de plantillas
 ```json
 [
   {
+    "stack": "springboot",
+    "platform": "azure",
     "level": 0,
     "cost": -1,
-    "template": "https://github.com/user/repo"
+    "template": "https://github.com/user/repo",
+    "runtime": "jairoprogramador/vex-runtime-springboot-azure:latest"
   }
 ]
 ```
 
 | Campo | Tipo | Valores | Descripción |
 |-------|------|---------|-------------|
+| `stack` | `string` | `springboot`, `node`, `angular` | Tecnología o framework principal del proyecto. Define el ecosistema de herramientas a utilizar. |
 | `level` | `number` | `0`, `1`, `2` | Nivel de arquitectura. A mayor nivel, mayor complejidad estructural. |
 | `cost` | `number` | `-1`, `0`, `1` | Variante de costo. `-1` bajo, `0` medio, `1` alto. |
 | `template` | `string` | URL | URL del repositorio Git que contiene la plantilla a seguir. |
+| `runtime` | `string` | imagen Docker | Imagen Docker preconfigurada que se ejecuta como contenedor efímero para aplicar la plantilla, sin requerir instalaciones locales. |
 
 ### Niveles de arquitectura
 
@@ -49,7 +54,7 @@ templates.json   ← Mapa de plantillas
 
 ## Uso
 
-**Vex** consume este archivo directamente desde el repositorio remoto. Para resolver la plantilla adecuada, realiza una búsqueda por `level` y `cost` y obtiene la URL del repositorio que debe clonarse como base del nuevo proyecto.
+**Vex** consume este archivo directamente desde el repositorio remoto. Para resolver la plantilla adecuada, realiza una búsqueda por `level` y `cost` y obtiene la URL del repositorio plantilla junto con la imagen Docker de runtime necesaria para ejecutarla.
 
 
 ## Contribución
